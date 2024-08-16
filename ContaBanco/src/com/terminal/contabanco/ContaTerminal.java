@@ -3,14 +3,6 @@ package com.terminal.contabanco;
 import java.util.Locale;
 import java.util.Scanner;
 
-/*
- * nome do cliente
- * numero da agencia
- * numero da conta
- * saldo
- * Mensagem final: "Olé [nomeCliente], obrigado por criar uma conta em nosso banco, sua agência é
- * [agencia], conta [numeroConta] e seu saldo [saldo] já está disponível para saque."*/
-
 public class ContaTerminal {
 
 	public static void main(String[] args) {
@@ -29,8 +21,5 @@ public class ContaTerminal {
 		
 		System.out.println("Olá, " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é " 
 		+ agencia + ", sua conta é " + conta + " e seu saldo R$" + saldo + " já está disponível para saque.");
-		
-
 	}
-
 }
